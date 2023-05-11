@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Signing Page</title>
+</head>
+<body>
+    <header><h1>Signing Page</h1></header>
+    <a >
+    <div class="main" onclick="sigtoggle()">
+        <div class="rx">
+            <div class="image">
+                <img class="rximage" src="CibRX.png" alt="">
+            </div>
+            <div class="signature">
+                Name: Dr. Aspinall | Date: 5/11/2023 | Signature: <div class="sigbox"><img src="signature.png" alt="" class="sigimage" id="signature"></div>
+            </div>
+            <div>Signing ID: 051123-S091314-A6HGF7H9</div>
+        </div>
+        <div class="info">
+            <h3>Patient Info</h3>
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <th>Danny Chen</th>
+                </tr>
+                <tr>
+                    <th>Date of Birth:</th>
+                    <th>12/03/1999:</th>
+                </tr>
+                <tr>
+                    <th>Weight:</th>
+                    <th>90kg</th>
+                </tr>
+                <tr>
+                    <th>Allergies:</th>
+                    <th>None</th>
+                </tr>
+                <tr>
+                    <th>Other Medications:</th>
+                    <th>Synthroid, Rosuvastatin</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</a>
+    <div class="main" onclick="sigtoggle2()" id="main2">
+        <div class="rx">
+            <div class="image">
+                <img class="rximage" src="KlaRX.png" alt="">
+            </div>
+            <div class="signature">
+                Name: Dr. Aspinall | Date: 5/11/2023 | Signature: <div class="sigbox"><img src="signature.png" alt="" class="sigimage" id="signature2"></div>
+            </div>
+            <div>Signing ID: 051123-S091314-A6HGF7H9</div>
+        </div>
+        <div class="info">
+            <h3>Patient Info</h3>
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <th>Danny Chen</th>
+                </tr>
+                <tr>
+                    <th>Date of Birth:</th>
+                    <th>12/03/1999:</th>
+                </tr>
+                <tr>
+                    <th>Weight:</th>
+                    <th>90kg</th>
+                </tr>
+                <tr>
+                    <th>Allergies:</th>
+                    <th>None</th>
+                </tr>
+                <tr>
+                    <th>Other Medications:</th>
+                    <th>Synthroid, Rosuvastatin</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script>
+    function sigtoggle() {
+        document.getElementById("signature").style.visibility = "visible"
+    }
+
+    function sigtoggle2() {
+        document.getElementById("signature2").style.visibility = "visible"
+    }
+</script>
+</html>
